@@ -1,0 +1,120 @@
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-mode .navbar {
+  background-color: #2d2d2d !important;
+}
+
+.dark-mode .navbar-light .navbar-brand,
+.dark-mode .navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.dark-mode .card {
+  background-color: #2d2d2d;
+  border-color: #404040;
+}
+
+.dark-mode .form-control {
+  background-color: #404040;
+  border-color: #505050;
+  color: #ffffff;
+}
+
+.dark-mode .table {
+  color: #c8c8c8;
+  background-color: #2d2d2d;
+  border-color: #404040;
+}
+
+.dark-mode .table > :not(caption) > * > * {
+  background-color: #2d2d2d;
+  border-color: #404040;
+  color: #c8c8c8;
+}
+
+.dark-mode .table tbody tr:hover {
+  background-color: #404040;
+  color: #ffffff;
+}
+
+.dark-mode .table tbody tr:hover td {
+  background-color: #404040;
+  color: #ffffff;
+}
+
+.dark-mode .modal-content {
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+
+.dark-mode .modal-header {
+  border-bottom-color: #404040;
+}
+
+.dark-mode .modal-footer {
+  border-top-color: #404040;
+}
+
+.dark-mode .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.dark-mode .alert-info {
+  background-color: #404040;
+  border-color: #505050;
+  color: #ffffff;
+}
+.dark-mode .modal-content {
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+.dark-mode #slidesTableBody tr:hover {
+  color: #ffffff !important;
+}
+
+.dark-mode .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+.dark-mode .accordion-item {
+  background-color: #2d2d2d;
+  border-color: #404040;
+}
+
+.dark-mode .accordion-button {
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+
+.dark-mode .accordion-button:not(.collapsed) {
+  background-color: #404040;
+  color: #ffffff;
+}
+
+.dark-mode .accordion-button::after {
+  filter: invert(1);
+}
+
+.dark-mode .slide-content {
+  background-color: #404040;
+  border-color: #505050;
+  color: #ffffff;
+}
+
+.dark-mode .list-unstyled a {
+  color: #ffffff !important;
+}
+
+.dark-mode .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.dark-mode #darkModeToggle {
+  background-color: #404040;
+  border-color: #505050;
+  color: #ffffff;
+}
