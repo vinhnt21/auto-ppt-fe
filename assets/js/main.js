@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "/api";
 // Update current year in footer
 document.getElementById("currentYear").textContent = new Date().getFullYear();
 
