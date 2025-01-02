@@ -1,4 +1,4 @@
-const BASE_URL = "/api";
+const BASE_URL = "https://auto-ppt-be.onrender.com/api";
 // Update current year in footer
 document.getElementById("currentYear").textContent = new Date().getFullYear();
 
